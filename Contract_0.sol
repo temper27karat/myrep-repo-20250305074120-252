@@ -2,13 +2,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract HelloWorld_0 {
+contract MyToken_0 {
     uint256 public randomNumber;
     string public message;
 
     constructor() {
-        randomNumber = 61;
-        message = "Hello from commit 0 - 2025-03-05 07:41:24";
+        randomNumber = 28;
+        message = "Hello from commit 0 - 2025-03-05 07:41:29";
     }
 
     function getMessage() public view returns (string) {
